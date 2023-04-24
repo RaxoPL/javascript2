@@ -5,22 +5,32 @@
 	</script>
 	</head>
   <body>
-	<script language="JavaScript">
-		dzis = new Date();
-	</script>
     <script type="text/javascript">
-var liczba = 10;
+dzis = new Date();
+var liczba = dzis.getDay();
 switch(liczba){
-case 10 :
-document.write("Zmienna liczba = 10.");
+case 0 :
+document.write("Niedziela");
 break;
-case 20 :
-document.write("Zmienna liczba = 20.");
+case 1 :
+document.write("Poniedzialek");
 break;
-default :
-document.write("Zmienna liczba nie jest równa ani 10, ani 20.");
+case 2 :
+document.write("Wtorek");
+break;
+case 3 :
+document.write("Sroda");
+break;
+case 4 :
+document.write("Czwartek");
+break;
+case 5 :
+document.write("Piatek");
+break;
+case 6 :
+document.write("Sobota");
+break;
 }
-       document.write(getDay() dzień tygodnia (0 dla niedzieli, 1 dla poniedziałku, 2 dla wtorku itd.);
 </script>
 
   </body>
