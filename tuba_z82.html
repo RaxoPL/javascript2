@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title> Zadanie 82</title>
+	<script language="JavaScript">
+		function pushbutton() {
+		alert("Cześć!");}
+	</script>
+	</head>
+  <body>
+<p style="font-size:40px;font-color:red;">Tubaja</p>
+    <p style="font-size:20px;font-color:green;">
+      dzis = new Date() - wpisuje aktuany dzien do zmiennej date <br>
+      dzis = dzis.getHours() - wpisuje aktualna godzine do zmiennej date <br>
+      dzis = dzis.getMinutes() - wpisuje aktualna minute do zmiennej date <br>
+      dzis = dzis.getMonth()+1 - wpisuje aktualny miesiac do zmiennej date <br>
+      dzis = getDate() - wpisuje aktualna date do zmiennej date <br>
+      dzis = dzis.getFullYear() - wpisuje aktualny rok do zmiennej date <br>
+    </p>
+Ostatnio zmodyfikowany
+	<script language="LiveScript">
+		document.write(document.lastModified,"<br>")
+	</script>
+	<form>
+		<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+	</form>
+	<script language="JavaScript">
+		dzis = new Date() //zapisuje dzisiejsza date do "dzis"
+		document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+		document.write("<br>Aktualna data : ",dzis.getDate().fontcolor("red"),",",dzis.getMonth()+1.fontcolor("green"),",",dzis.getFullYear().fontcolor("blue"));
+	</script>
+  </body>
+</html>
